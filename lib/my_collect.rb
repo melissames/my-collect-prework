@@ -4,8 +4,7 @@ def my_collect (collection)
 
   while i < collection.length
     yield(collection[i])
-    new_collection << collection[i]
     i = i + 1
   end
-  new_collection
+  collection
 end
